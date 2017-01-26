@@ -101,7 +101,7 @@ image_convert(image, format, depth = NULL)
 
 image_compare(image, reference_image, metric = "")
 
-image_deskew(image, treshold = 40)
+image_deskew(image, threshold = 40)
 }
 \arguments{
 \item{image}{object returned by \code{image_read}}
@@ -172,7 +172,7 @@ Can also be a bitmap type such as \code{rgba} or \code{rgb}.}
 \item{metric}{string with a
 \href{http://www.imagemagick.org/script/command-line-options.php#metric}{metric type}}
 
-\item{treshold}{straightens an image. A threshold of 40 works for most images.}
+\item{threshold}{straightens an image. A threshold of 40 works for most images.}
 }
 \description{
 Vectorized functions for transforming images. These functions apply
